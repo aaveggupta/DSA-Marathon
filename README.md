@@ -2,7 +2,7 @@
 
 Hey folks, My name is Aaveg, and I'm your DSA Marathon instructor! So, this is your final task, and you'll be learning how to contribute to open source. This isn't a typical repository with a list of plain text; instead, its more tends towards REAL-WORLD projects! Now let's see what you'll bring to the table!
 
-## After doing below steps correctly you'll be see you name card on [this link](https://aaveggupta.github.io/DSA-Marathon/)
+## After doing below steps correctly you'll be see your name card on [this link](https://aaveggupta.github.io/DSA-Marathon/)
 
 ### Below Template is taken from, [First Contribution](https://github.com/firstcontributions/first-contributions).
 
