@@ -143,3 +143,14 @@ Soon I'll be merging all your changes into the master branch of this project. Yo
 
 ### HURRAY!! You have successfull made your contribution, Now just share this acheivement on your Socials and Don't forget to tag [me](https://linktr.ee/aaveg) and DSA Marathon Account!! 😍
 #### Now  you'll be able to see your card on [this link](https://aaveggupta.github.io/DSA-Marathon/)
+
+<h2 align=center> ✨ Contributors </h2>
+
+
+Thanks go to these **Wonderful People** 👨🏻‍💻:      🚀 **Contributions** of any kind are welcome! 
+
+<table>
+ <a href="https://github.com/aaveggupta/DSA-Marathon/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aaveggupta/DSA-Marathon" />
+</a>
+</table>
