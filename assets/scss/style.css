@@ -9,8 +9,7 @@
 
 :root {
   --primary-color: rgb(156, 156, 236);
-  /* --text-color: #5B53BC; */
-  --text-color: darkblue;
+  --text-color: #5B53BC;
   --hover-color: #5c53bcce;
   --body-font: 'Inter', 'sans-serif';
   --normal-font-size: 1.4rem;
@@ -222,6 +221,7 @@ a {
 }
 
 .nav__title {
+  text-align: center;
   font-size: 2.5rem;
   font-family: 'Montserrat', 'Inter';
 }
