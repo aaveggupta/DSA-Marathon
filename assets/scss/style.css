@@ -9,7 +9,8 @@
 
 :root {
   --primary-color: rgb(156, 156, 236);
-  --text-color: #5B53BC;
+  /* --text-color: #5B53BC; */
+  --text-color: darkblue;
   --hover-color: #5c53bcce;
   --body-font: 'Inter', 'sans-serif';
   --normal-font-size: 1.4rem;
@@ -233,3 +234,18 @@ a {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+@media screen and (max-width: 650px) {
+  .nav__title{
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .nav__title{
+    font-size: 30px;
+  }
+  .nav{
+    padding: 1rem;
+  }
+}
