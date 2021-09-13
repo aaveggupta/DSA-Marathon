@@ -21,6 +21,18 @@ body {
   color: var(--text-color);
   background-color: #8181f1;
 }
+body::-webkit-scrollbar{
+  width: 7px;
+}
+body::-webkit-scrollbar-track{
+  background-color:#070744;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #25f8b2e8;
+  border-radius:5px;
+}
+
+
 
 h1, p {
   margin: 0;
@@ -71,8 +83,24 @@ a {
   display: flex;
   margin-right: 2rem;
   margin-bottom: 2rem;
+  overflow: hidden;
   -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
           box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.25);
+          position: relative;
+}
+.card:before{
+  content:'';
+  width: 5%;
+  height: 140%;
+  position: absolute;
+  top: -20%;
+  left: -27%;
+  transform:rotate(-40deg);
+  background-color: rgb(216, 199, 199);
+  transition: all .4s ease-out;
+}
+.card:hover:before{
+left: 123%;
 }
 
 @media screen and (max-width: 524px) {
@@ -107,6 +135,11 @@ a {
 .card__img {
   width: 9rem;
   margin-right: 1.5rem;
+  animation: animate 1s ease-out;
+}
+@keyframes animate {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
 }
 
 @media screen and (max-width: 524px) {
