@@ -115,6 +115,22 @@ left: 123%;
     width: 18rem;
     padding: 2rem 2rem;
   }
+
+  .card:before {
+    content: '';
+    width: 5%;
+    height: 140%;
+    position: absolute;
+    top: -20%;
+    left: -62%;
+    transform: rotate(
+-40deg);
+    background-color: rgb(216, 199, 199);
+    transition: all .6s ease-out;
+}
+.card:hover:before{
+  left: 153%;
+  }
 }
 
 @media screen and (max-width: 314px) {
