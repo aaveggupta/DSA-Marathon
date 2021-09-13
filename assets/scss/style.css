@@ -221,6 +221,7 @@ a {
 }
 
 .nav__title {
+  text-align: center;
   font-size: 2.5rem;
   font-family: 'Montserrat', 'Inter';
 }
@@ -233,3 +234,18 @@ a {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+@media screen and (max-width: 650px) {
+  .nav__title{
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .nav__title{
+    font-size: 30px;
+  }
+  .nav{
+    padding: 1rem;
+  }
+}
